@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bucket-details",
+      "handler": "bucket-details.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bucket-details/count",
+      "handler": "bucket-details.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bucket-details/:id",
+      "handler": "bucket-details.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bucket-details",
+      "handler": "bucket-details.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bucket-details/:id",
+      "handler": "bucket-details.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bucket-details/:id",
+      "handler": "bucket-details.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

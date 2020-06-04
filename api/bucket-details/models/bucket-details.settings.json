@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bucket_details",
+  "info": {
+    "name": "BucketDetails"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "price": {
+      "type": "float"
+    },
+    "discount": {
+      "type": "float"
+    }
+  }
+}
